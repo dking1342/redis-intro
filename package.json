@@ -1,0 +1,21 @@
+{
+  "name": "redis-1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Intro into redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "redis": "redis-server"
+  },
+  "author": "David King",
+  "license": "MIT",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.4",
+    "nodemon": "^2.0.16",
+    "redis": "^4.1.0"
+  }
+}
